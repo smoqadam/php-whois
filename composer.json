@@ -10,7 +10,9 @@
     ],
     "minimum-stability": "stable",
     "require": {},
-    "autoload":{
-        "Smoqadam":"src/"
+    "autoload": {
+        "psr-0": {
+            "Smoqadam": "src/"
+        }
     }
 }
