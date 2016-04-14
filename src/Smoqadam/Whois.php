@@ -9,7 +9,7 @@ class Whois{
      * @return mixed
      */
     private function getServers(){
-        return json_decode(file_get_contents('whois.servers.json'),true);
+        return json_decode(file_get_contents(__DIR__.'/whois.servers.json'),true);
     }
 
     /**
