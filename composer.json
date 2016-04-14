@@ -1,0 +1,16 @@
+{
+    "name": "smoqadam/php-whois",
+    "description": "a class written in php for get domain information",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smoqadam",
+            "email": "phpro.ir@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "Smoqadam":"src/"
+    }
+}
