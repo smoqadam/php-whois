@@ -50,7 +50,7 @@ class Whois{
         if(isset($servers[$ext])){
             return $servers[$ext];
         }else{
-            throw new Exception('Please specify your domain extension', 1);
+            throw new \Exception('Please specify your domain extension', 1);
         }
     }
 
@@ -78,7 +78,7 @@ class Whois{
             fclose($conn);
         }
         else { 
-            throw new Exception("Cannot connect to the ".$domain_server, 1);
+            throw new \Exception("Cannot connect to the ".$domain_server, 1);
             
         }
 
@@ -93,7 +93,6 @@ class Whois{
      * Check domain is available or not
      * @param $domain
      * @return bool
-     * @throws Exception
      */
     public function isAvailable($domain)
     {
